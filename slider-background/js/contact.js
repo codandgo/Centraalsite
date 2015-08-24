@@ -13,7 +13,9 @@
     $('.error').hide(); //Hide error messages 
     $('#MainResult').hide(); //we will hide this right now
     $('#form-wrapper').show(); //show main form
+    $('#success').hide(); 
     $(".contact-btn").click(function () { //User clicks on Submit button
+      
 
         // Fetch data from input fields.
         var js_name = $("#name").val();
@@ -59,9 +61,8 @@
             dataType: "html",
             data: myData,
             success: function (response) {
-                $("#MainResult").html('<fieldset class="response">' + response + '</fieldset>');
-                $("#MainResult").slideDown("slow"); //show Result 
-                $("#MainContent").hide(); //hide form div slowly
+                $("#MainResult").fadeIn('slow').idle(1000).fadeOut('slow');
+            return false;
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 $("#ErrResults").html(thrownError);
