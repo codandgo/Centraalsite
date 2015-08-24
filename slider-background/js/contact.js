@@ -60,8 +60,8 @@
             dataType: "html",
             data: myData,
             success: function (response) {
-                
-                
+                $("#MainResult").html('<fieldset class="response">' + response + '</fieldset>');
+                $("#MainResult").slideDown("slow"); //show Result 
                 $("#MainContent").hide(); //hide form div slowly
             },
             error: function (xhr, ajaxOptions, thrownError) {
