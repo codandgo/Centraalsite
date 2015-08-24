@@ -61,7 +61,7 @@
             data: myData,
             success: function (response) {
                 
-                $("#MainResult").slideDown("slow"); //show Result 
+                
                 $("#MainContent").hide(); //hide form div slowly
             },
             error: function (xhr, ajaxOptions, thrownError) {
