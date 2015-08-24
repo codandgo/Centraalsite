@@ -14,6 +14,7 @@
     $('#MainResult').hide(); //we will hide this right now
     $('#form-wrapper').show(); //show main form
     $(".contact-btn").click(function () { //User clicks on Submit button
+    $('.success').hide();    
 
         // Fetch data from input fields.
         var js_name = $("#name").val();
@@ -59,8 +60,8 @@
             dataType: "html",
             data: myData,
             success: function (response) {
-                $("#MainResult").html('<fieldset class="response">' + response + '</fieldset>');
-                $("#MainResult").slideDown("slow"); //show Result 
+                
+                
                 $("#MainContent").hide(); //hide form div slowly
             },
             error: function (xhr, ajaxOptions, thrownError) {
