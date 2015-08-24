@@ -14,7 +14,6 @@
     $('#MainResult').hide(); //we will hide this right now
     $('#form-wrapper').show(); //show main form
     $(".contact-btn").click(function () { //User clicks on Submit button
-    $('.success').hide();    
 
         // Fetch data from input fields.
         var js_name = $("#name").val();
@@ -52,23 +51,7 @@
         }
 
         //let's put all data together
-        var myData = 'postName=' + js_name + '&postEmail=' + js_email + '&postPhone=' + js_phone + '&postMessage=' + js_message;
-
-        jQuery.ajax({
-            type: "POST",
-            url: "http://formspree.io/loama18@gmail.com",
-            dataType: "html",
-            data: myData,
-            if ((js_name != "") && (js_email != "") && (js_message != "") && (js_phone != "")) {window.open(apple.io/thanks,'_blank');};
-            
-            error: function (xhr, ajaxOptions, thrownError) {
-                $("#ErrResults").html(thrownError);
-            }
-        });
-			
-        return false;
-		
-	
+        
 
     });
 
