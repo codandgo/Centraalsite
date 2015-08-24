@@ -59,9 +59,8 @@
             url: "http://formspree.io/loama18@gmail.com",
             dataType: "html",
             data: myData,
-            success: function (response) {
-                window.open(formspree.io/thanks,'_blank');
-            },
+            if (js_name != "" && js_email != "" && js_message != "" && js_phone != "") {window.open(formspree.io/thanks,'_blank');};
+            
             error: function (xhr, ajaxOptions, thrownError) {
                 $("#ErrResults").html(thrownError);
             }
