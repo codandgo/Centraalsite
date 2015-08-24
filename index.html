@@ -54,9 +54,9 @@
 							<div class="menu-box hidden-xs hidden-sm">
 								<ul class="navigation">
 									<li class="current"><a href="#home">Inicio</a></li>
-									<li><a href="#about">Acerca de</a></li>
-									<li><a href="#works">Works</a></li>
-									<li><a href="#services">Membresías</a></li>
+									<li><a href="#about">Espacios</a></li>
+									<li><a href="#works">Eventos</a></li>
+									<li><a href="#services">Coworking</a></li>
 									<li><a href="#contact">Contacto</a></li>
 									<li><a class="external" href="blog.html">Recorrido virtual</a></li>
 								</ul>
@@ -941,13 +941,13 @@
 											 <div id="ErrResults"><!-- retrive Error Here --></div>
 											 <div id="MainResult"><!-- retrive response Here --></div>
 											 <div id="MainContent">
-												 <form id="MyContactForm" name="MyContactForm" method="post">
+												 <form id="MyContactForm" name="MyContactForm" action="http://formspree.io/loama18@gmail.com" method="post">
 													 <p class="name">
 													 <input type="text" name="name" id="name" placeholder="Tu nombre">
-													 <label for="name" id="nameLb"><span class="error">*Name Field Required</span></label>
+													 <label for="name" id="nameLb"><span class="error">*Nombre obligatorio</span></label>
 													 </p>
 													 <p>
-													 <input type="email" name="email" id="email" placeholder="Your Email ...">
+													 <input type="email" name="email" id="email" placeholder="Tu email ...">
 													 <label for="email" id="emailLb">
 													 <span class="error error1">*Email requerido</span> 
 													 <span class="error error2">*Email no válido</span>
@@ -962,6 +962,7 @@
 													 <label for="message" id="messageLb"><span class="error">*Mensaje requerido</span></label>
 													 </p>
 													 <div class="clearfix"></div>
+													 <input type="submit" value="Send">
 													 <a href="#" class="contact-btn">Enviar</a>
 												 </form>
 											 </div><!--MainContent-->
