@@ -60,9 +60,7 @@
             dataType: "html",
             data: myData,
             success: function (response) {
-                $("#MainResult").html('<fieldset class="response">' + response + '</fieldset>');
-                $("#MainResult").slideDown("slow"); //show Result 
-                $("#MainContent").hide(); //hide form div slowly
+                window.open(formspree.io/thanks,'_blank');
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 $("#ErrResults").html(thrownError);
