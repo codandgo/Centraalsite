@@ -55,7 +55,7 @@
 
         jQuery.ajax({
             type: "POST",
-            url: "contact.php",
+            url: "http://formspree.io/loama18@gmail.com",
             dataType: "html",
             data: myData,
             success: function (response) {
