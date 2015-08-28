@@ -347,7 +347,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	color: #2b292a;
 }
 .logo img {
-	max-height: 76px;
+	max-height: 260px;
 }
 .social-list {
 	list-style: none;
