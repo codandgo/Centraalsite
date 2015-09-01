@@ -27,12 +27,42 @@ MEDIA QUERIES
 ------------------------------------------------------------*/
 
 /*-----------------------------------------GENERAL SECTION--------------------------------------------------*/
+@font-face {
+	font-family: 'akzidenz';
+	src: url('akzidenz-grotesk-light.ttf'); 
+	src: 
+		local('akzidenz'),
+		local('akzidenz'),
+		url('akzidenz-grotesk-light.ttf') 
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'helvetica-neue-bold';
+	src: url('helvetica-neue-bold.otf'); 
+	src: 
+		local('helvetica-neue-bold'),
+		local('helvetica-neue-bold'),
+		url('helvetica-neue-bold.otf') 
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'HelveticaNeue-Light';
+	src: url('HelveticaNeue-Light.otf'); 
+	src: 
+		local('HelveticaNeue-Light'),
+		local('HelveticaNeue-Light'),
+		url('HelveticaNeue-Light.otf') 
+		format('opentype');
+}
+
 body, html {
 	height: 100%;
 }
 body {
 	color: #999999;
-	font-family: "open sans", sans-serif;
+	font-family: "akzidenz", sans-serif;
 	font-size: 14px;
 	line-height: 1.9;
 	background: #eee;
@@ -49,6 +79,8 @@ a {
 	-o-transition: ease .3s;
 	-ms-transition: ease .3s;
 }
+
+
 a:hover {
 	text-decoration: none;
 	color: #333;
@@ -60,7 +92,7 @@ a:focus {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'akzidenz', sans-serif; /* Oswald */
 	color: #2b292a;
 }
 iframe {
@@ -253,7 +285,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .menu-box .navigation li a {
 	color: #fff;
 	display: block;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'akzidenz', sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	padding: 15px 20px;
