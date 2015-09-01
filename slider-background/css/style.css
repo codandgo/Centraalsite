@@ -217,7 +217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .logo {
 	float: left;
 	text-align: left;
-	width: 10%;
+	width: 15%;
 }
 .logo1 {
 	display: block;
@@ -234,7 +234,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .social-top {
 	float: left;
 	text-align: right;
-	width: 20%;
+	width: 15%;
 }
 .nav-box {
 	width: 90%;
