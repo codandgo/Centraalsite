@@ -1323,7 +1323,7 @@ input:focus, textarea:focus {
 @media (min-width:768px) and (max-width:1024px) {
 .footer-icon{margin-top:10px;}
 .logo {
-	width: 50%;
+	width: 15%;
 }
 .footer .col-md-6,.footer-icon{text-align:center;}
 }
