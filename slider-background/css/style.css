@@ -686,16 +686,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	background-attachment: scroll;
 }
 .bg1 .para-img {
-	background-image: url("../images/bg/1.jpg");
+	background-image: url("../images/bg/1c.jpg");
 }
 .bg2 .para-img {
-	background-image: url("../images/bg/2.jpg");
+	background-image: url("../images/bg/2c.jpg");
 }
 .bg3 .para-img {
-	background-image: url("../images/bg/3.jpg");	
+	background-image: url("../images/bg/3c.jpg");	
 }
 .bg4 .para-img {
-	background-image: url("../images/bg/4.jpg")
+	background-image: url("../images/bg/4c.jpg")
 }
 .client-list .col-md-3 {
     margin: 20px 0;
