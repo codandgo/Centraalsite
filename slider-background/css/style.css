@@ -436,7 +436,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 .caption-box h3 {
 	color: #ffffff;
-	font-size: 80px;
+	font-size: 50px;
 	letter-spacing: 5px;
 	margin: 40px 0 10px;
 	line-height: 1;
@@ -692,7 +692,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	background-image: url("../images/bg/2.jpg");
 }
 .bg3 .para-img {
-	background-image: url("../images/bg/3.jpg");
+	background-image: url("../images/bg/3.jpg");	
+}
+.bg4 .para-img {
+	background-image: url("../images/bg/4.jpg")
 }
 .client-list .col-md-3 {
     margin: 20px 0;
